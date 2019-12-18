@@ -21,4 +21,4 @@ Clone hoặc nhấn nút tải File zip về.
 
 ## 🔷 Tác giả
 
-@quynhbkhn
+[@bkgost](https://twitter.com/bk_gost)
