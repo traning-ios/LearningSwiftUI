@@ -17,6 +17,7 @@
 		C6B8C1F623AA12EC00D4792E /* Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B8C1F523AA12EC00D4792E /* Subview.swift */; };
 		C6B8C1F823AA13E100D4792E /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B8C1F723AA13E100D4792E /* OnboardingView.swift */; };
 		C6B8C1FA23AA14AC00D4792E /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B8C1F923AA14AC00D4792E /* PageViewController.swift */; };
+		C6B8C27623AA297700D4792E /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B8C27523AA297700D4792E /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C6B8C1F523AA12EC00D4792E /* Subview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subview.swift; sourceTree = "<group>"; };
 		C6B8C1F723AA13E100D4792E /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		C6B8C1F923AA14AC00D4792E /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		C6B8C27523AA297700D4792E /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				C6B8C1F523AA12EC00D4792E /* Subview.swift */,
 				C6B8C1F723AA13E100D4792E /* OnboardingView.swift */,
 				C6B8C1F923AA14AC00D4792E /* PageViewController.swift */,
+				C6B8C27523AA297700D4792E /* PageControl.swift */,
 			);
 			path = "2-ManhinhChao";
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			files = (
 				C6B8C1C623AA127900D4792E /* AppDelegate.swift in Sources */,
 				C6B8C1FA23AA14AC00D4792E /* PageViewController.swift in Sources */,
+				C6B8C27623AA297700D4792E /* PageControl.swift in Sources */,
 				C6B8C1F623AA12EC00D4792E /* Subview.swift in Sources */,
 				C6B8C1C823AA127900D4792E /* SceneDelegate.swift in Sources */,
 				C6B8C1F823AA13E100D4792E /* OnboardingView.swift in Sources */,
