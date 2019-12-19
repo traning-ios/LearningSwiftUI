@@ -1,6 +1,6 @@
 # Todo 
 
-![Background](/images/image.png)
+![Background](images/image.png)
 
 ## Để chạy project bạn phải:
 
