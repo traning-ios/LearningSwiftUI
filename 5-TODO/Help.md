@@ -16,3 +16,5 @@
 }
 
 
+- Tải file GoogleService-Info.plist bằng cách vào mục project overview -> project setting -> Download the latest config file. 
+Kéo thả vào project của bạn. 
