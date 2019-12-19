@@ -11,6 +11,7 @@ https://console.firebase.google.com
 
 - Vào phần Database, tạo database. Ở mục realtime database, chọn rules và add rule với truyền truy cập khi đăng nhập như sau:
 
+```python
 {
   "rules": {
     "$uid": {
@@ -19,6 +20,9 @@ https://console.firebase.google.com
    }
  }
 }
+```
+
+
 
 
 - Tải file GoogleService-Info.plist bằng cách vào mục project overview -> project setting -> Download the latest config file. 
