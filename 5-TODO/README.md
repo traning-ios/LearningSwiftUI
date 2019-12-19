@@ -1,3 +1,7 @@
+# Todo 
+
+![Background](/images/image.png)
+
 ## Để chạy project bạn phải:
 
 - Vào firebase tạo 1 project với bunndle id của bạn
