@@ -4,7 +4,8 @@
 
 ## Để chạy project bạn phải:
 
-- Vào firebase tạo 1 project với bunndle id của bạn
+- Vào firebase tạo 1 project với bunndle id của bạn:
+https://console.firebase.google.com
 
 - Vào phần Authentication và bật authen với mail/password
 
