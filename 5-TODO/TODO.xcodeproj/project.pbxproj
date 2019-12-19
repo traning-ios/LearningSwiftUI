@@ -26,6 +26,7 @@
 		3DE9C8132333DD9D0081513B /* TODORowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE9C8122333DD9D0081513B /* TODORowView.swift */; };
 		3DE9C8152333E0390081513B /* NewTODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE9C8142333E0390081513B /* NewTODOView.swift */; };
 		C6C0A98C23AB6BD400CFF652 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6C0A98B23AB6BD400CFF652 /* GoogleService-Info.plist */; };
+		C6C0A98E23AB6DC100CFF652 /* Help.md in Resources */ = {isa = PBXBuildFile; fileRef = C6C0A98D23AB6DC100CFF652 /* Help.md */; };
 		F7FEC0C233BB890666CAB1F7 /* Pods_TODOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B51D339D7A9D05F0815934 /* Pods_TODOUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		67B851F21532D6A425B26BBB /* Pods-TODOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TODOTests/Pods-TODOTests.release.xcconfig"; sourceTree = "<group>"; };
 		732E97CE43EBCFD4B6F03945 /* Pods-TODOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TODOUITests/Pods-TODOUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C6C0A98B23AB6BD400CFF652 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C6C0A98D23AB6DC100CFF652 /* Help.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Help.md; sourceTree = "<group>"; };
 		C81FE706A7C34CF905E2EB60 /* Pods-TODOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TODOUITests/Pods-TODOUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DAFF7D112FF71DB7394BD2D0 /* Pods-TODO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODO.release.xcconfig"; path = "Pods/Target Support Files/Pods-TODO/Pods-TODO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +144,7 @@
 		3D92DF3E2332AA4B00794441 = {
 			isa = PBXGroup;
 			children = (
+				C6C0A98D23AB6DC100CFF652 /* Help.md */,
 				3D92DF492332AA4B00794441 /* TODO */,
 				3D92DF602332AA5000794441 /* TODOTests */,
 				3D92DF6B2332AA5000794441 /* TODOUITests */,
@@ -339,6 +342,7 @@
 				C6C0A98C23AB6BD400CFF652 /* GoogleService-Info.plist in Resources */,
 				3D92DF542332AA5000794441 /* Preview Assets.xcassets in Resources */,
 				3D92DF512332AA5000794441 /* Assets.xcassets in Resources */,
+				C6C0A98E23AB6DC100CFF652 /* Help.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
