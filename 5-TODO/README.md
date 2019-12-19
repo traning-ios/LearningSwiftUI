@@ -1,6 +1,6 @@
 ## Để chạy project bạn phải:
 
-- Vào file base tạo 1 project với bunndle id của bạn
+- Vào firebase tạo 1 project với bunndle id của bạn
 
 - Vào phần Authentication và bật authen với mail/password
 
