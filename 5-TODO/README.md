@@ -1,15 +1,21 @@
-# TODO
-From the SwiftUI and Firebase tutorial
+## Để chạy project bạn phải:
+
+- Vào file base tạo 1 project với bunndle id của bạn
+
+- Vào phần Authentication và bật authen với mail/password
+
+- Vào phần Database, tạo database. Ở mục realtime database, chọn rules và add rule với truyền truy cập khi đăng nhập như sau:
+
+{
+  "rules": {
+    "$uid": {
+      ".write": "$uid === auth.uid",
+      ".read": "$uid === auth.uid"
+   }
+ }
+}
 
 
-## Information
-This is a fully functioning, not pretty, SwiftUI app using Firebase to store data.  It relies on Realtime Database but it can be converted easily to Firestore.
+- Tải file GoogleService-Info.plist bằng cách vào mục project overview -> project setting -> Download the latest config file. 
+Kéo thả vào project của bạn. 
 
-### Installing
-Run the pod file, create a new Firebase project, add plist file to TODO.
-
-### Updates
-The project curently works with Xcode 11 GM seed 2.
-
-### License
-This project is licensed under the MIT License
