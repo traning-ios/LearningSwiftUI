@@ -21,7 +21,7 @@ struct SignupView: View {
                     TextField("Enter Email Address", text: $email).keyboardType(.emailAddress)
                 }
                 .padding()
-
+ 
                 HStack {
                     Text("Password")
                     SecureField("Enter Password", text: $password)

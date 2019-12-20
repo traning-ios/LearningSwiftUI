@@ -18,6 +18,18 @@ class FirebaseSession: ObservableObject {
 
     var databaseReference: DatabaseReference?
 
+    init() {
+        if databaseReference == nil  {
+            let firebasePath = Auth.auth().currentUser?.uid ?? ""
+            if firebasePath.count > 0 {
+                databaseReference =  Database.database().reference(withPath: firebasePath)
+            } else {
+                print("cannot create databaseReference")
+                return
+            }
+        }
+    }
+    
     func listen() {
         _ = Auth.auth().addStateDidChangeListener({ (auth, user) in
             if let user = user {
