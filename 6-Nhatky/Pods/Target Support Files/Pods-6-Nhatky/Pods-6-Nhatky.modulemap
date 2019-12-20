@@ -1,0 +1,6 @@
+framework module Pods_6_Nhatky {
+  umbrella header "Pods-6-Nhatky-umbrella.h"
+
+  export *
+  module * { export * }
+}
