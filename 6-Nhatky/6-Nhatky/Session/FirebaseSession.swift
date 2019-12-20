@@ -16,7 +16,7 @@ class FirebaseSession: ObservableObject {
     @Published var isLoggedIn: Bool?
     @Published var items: [Story] = []
 
-    var databaseReference: DatabaseReference =  Database.database().reference(withPath: "\(String(describing: Auth.auth().currentUser?.uid ?? "Error"))")
+    var databaseReference: DatabaseReference?
 
     func listen() {
         _ = Auth.auth().addStateDidChangeListener({ (auth, user) in
@@ -48,7 +48,17 @@ class FirebaseSession: ObservableObject {
 
     //get all story
     func getAllStory() {
-        databaseReference.observe(DataEventType.value) { (snapshot) in
+        if databaseReference == nil  {
+            let firebasePath = Auth.auth().currentUser?.uid ?? ""
+            if firebasePath.count > 0 {
+                databaseReference =  Database.database().reference(withPath: firebasePath)
+            } else {
+                print("cannot create databaseReference")
+                return
+            }
+        }
+
+        databaseReference!.observe(DataEventType.value) { (snapshot) in
             self.items = []
             for child in snapshot.children {
                 if let snapshot = child as? DataSnapshot,
@@ -62,7 +72,7 @@ class FirebaseSession: ObservableObject {
     func createStory(story: Story) {
         //Generates number going up as time goes on, sets order of Story's by how old they are.
         let number = Int(Date.timeIntervalSinceReferenceDate * 1000)
-        let postRef = databaseReference.child(String(number))
+        let postRef = databaseReference!.child(String(number))
         postRef.setValue(story.toAnyObject())
     }
 

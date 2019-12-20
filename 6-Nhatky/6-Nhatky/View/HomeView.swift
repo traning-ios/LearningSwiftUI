@@ -20,7 +20,7 @@ struct HomeView: View {
 
             List {
                 ForEach(self.firebaseSession.items) { story  in
-                    NavigationLink(destination: DetailStoryView()) {
+                    NavigationLink(destination: DetailStoryView(story: story)) {
                         StoryRowView(story: story)
                     }
                 }

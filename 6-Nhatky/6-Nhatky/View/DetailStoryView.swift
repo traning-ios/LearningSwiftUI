@@ -9,13 +9,12 @@
 import SwiftUI
 
 struct DetailStoryView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+    var story: Story
 
-struct DetailStoryView_Previews: PreviewProvider {
-    static var previews: some View {
-        DetailStoryView()
+    var body: some View {
+        VStack {
+            Text(story.title)
+            Text(story.content)
+        }
     }
 }
