@@ -18,7 +18,8 @@ Clone hoặc nhấn nút tải File zip về.
 - [x] Hiểu về state trong SwiftUI 
 - [x] Hiểu về binding dữ liệu trong SwiftUI 
 - [x] Làm màn hình chào mừng trong app 
-- [x] Làm ứng dụng todolist với firebase data realtime 
+- [x] Làm ứng dụng todolist với firebase data realtime
+- [x] Làm ứng dụng viết story với firebase data realtime 
 
 ## 🔷 Tác giả
 
