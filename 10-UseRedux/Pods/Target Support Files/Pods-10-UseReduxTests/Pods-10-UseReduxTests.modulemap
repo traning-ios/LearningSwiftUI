@@ -1,0 +1,6 @@
+framework module Pods_10_UseReduxTests {
+  umbrella header "Pods-10-UseReduxTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
