@@ -1,7 +1,7 @@
 # Menu context
 
 ![Background](images/image1.png)
-![Background](images/image1.png)
+![Background](images/image2.png)
 
 Hiển thị menu khi người dùng bấm long lên cell:
 
