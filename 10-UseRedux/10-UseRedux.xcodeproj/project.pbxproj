@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		C668C1CB23B0B49C000660C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C668C1C923B0B49C000660C7 /* LaunchScreen.storyboard */; };
 		C668C1D623B0B49C000660C7 /* _0_UseReduxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668C1D523B0B49C000660C7 /* _0_UseReduxTests.swift */; };
 		C668C1E123B0B49C000660C7 /* _0_UseReduxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668C1E023B0B49C000660C7 /* _0_UseReduxUITests.swift */; };
+		C668C1EF23B0C918000660C7 /* ObservableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C668C1EE23B0C918000660C7 /* ObservableState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C668C1DC23B0B49C000660C7 /* 10-UseReduxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "10-UseReduxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C668C1E023B0B49C000660C7 /* _0_UseReduxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_UseReduxUITests.swift; sourceTree = "<group>"; };
 		C668C1E223B0B49C000660C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C668C1EE23B0C918000660C7 /* ObservableState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableState.swift; sourceTree = "<group>"; };
 		CBEF6D97901020C0FECED278 /* Pods-10-UseReduxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-10-UseReduxTests.debug.xcconfig"; path = "Target Support Files/Pods-10-UseReduxTests/Pods-10-UseReduxTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DBCB1525C57B1E789C57C367 /* Pods-10-UseRedux-10-UseReduxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-10-UseRedux-10-UseReduxUITests.release.xcconfig"; path = "Target Support Files/Pods-10-UseRedux-10-UseReduxUITests/Pods-10-UseRedux-10-UseReduxUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DCD29713465E66A0D65C7333 /* Pods_10_UseRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_10_UseRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +103,6 @@
 				CBEF6D97901020C0FECED278 /* Pods-10-UseReduxTests.debug.xcconfig */,
 				B4BF7DCE0CF0A7C17BCA1D3E /* Pods-10-UseReduxTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +148,7 @@
 				C668C1C923B0B49C000660C7 /* LaunchScreen.storyboard */,
 				C668C1CC23B0B49C000660C7 /* Info.plist */,
 				C668C1C623B0B49C000660C7 /* Preview Content */,
+				C668C1EE23B0C918000660C7 /* ObservableState.swift */,
 			);
 			path = "10-UseRedux";
 			sourceTree = "<group>";
@@ -418,6 +420,7 @@
 			files = (
 				C668C1BF23B0B49B000660C7 /* AppDelegate.swift in Sources */,
 				C668C1C123B0B49B000660C7 /* SceneDelegate.swift in Sources */,
+				C668C1EF23B0C918000660C7 /* ObservableState.swift in Sources */,
 				C668C1C323B0B49B000660C7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
