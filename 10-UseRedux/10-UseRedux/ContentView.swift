@@ -13,13 +13,9 @@ struct Appstate: StateType {
     var count: Int = 0
 }
 
-struct CounterActionIncrease: Action {
+struct CounterActionIncrease: Action {}
 
-}
-
-struct CounterActionDecrease: Action {
-
-}
+struct CounterActionDecrease: Action {}
 
 
 func counterReducer(action: Action, state: Appstate?) -> Appstate {
