@@ -1,4 +1,4 @@
-# Menu context
+## Redux trong SwiftUI
 
 ![Background](images/image.png)
 

@@ -20,6 +20,7 @@ Clone hoặc nhấn nút tải File zip về.
 - [x] Làm màn hình chào mừng trong app 
 - [x] Làm ứng dụng todolist với firebase data realtime
 - [x] Làm ứng dụng viết story với firebase data realtime 
+- [x] Sử dụng Redux trong SwiftUI
 
 ## 🔷 Tác giả
 
