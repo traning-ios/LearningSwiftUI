@@ -24,7 +24,7 @@ final class ThemeManager: ObservableObject {
     static func currentTheme() -> Theme {
         if let storedTheme = userDefaults.currentIntObjectState(for: userDefaults.selectedTheme) {
             print("currentTheme = \(storedTheme)")
-            return Theme(rawValue: storedTheme)!
+            return Theme(rawValue: storedTheme) ?? .Default
         } else {
             return .Default
         }
