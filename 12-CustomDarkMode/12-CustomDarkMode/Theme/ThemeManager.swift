@@ -17,11 +17,13 @@ final class ThemeManager: ObservableObject {
     }
 
     static func applyTheme(theme: Theme) {
+        print("applyTheme = \(theme)")
         userDefaults.updateObject(for: userDefaults.selectedTheme, with: theme.rawValue)
     }
 
     static func currentTheme() -> Theme {
         if let storedTheme = userDefaults.currentIntObjectState(for: userDefaults.selectedTheme) {
+            print("currentTheme = \(storedTheme)")
             return Theme(rawValue: storedTheme)!
         } else {
             return .Default

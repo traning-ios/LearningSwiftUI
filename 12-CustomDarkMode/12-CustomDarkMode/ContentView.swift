@@ -11,11 +11,11 @@ import SwiftUI
 final class SelectionStore: ObservableObject {
     @Published var isDarkMode: Bool = ThemeManager.currentTheme() == .Default ? false : true {
         didSet {
-            applyTheme(isDarkMode: isDarkMode)
+            changeTheme(isDarkMode: isDarkMode)
         }
     }
 
-    private func applyTheme(isDarkMode: Bool) {
+    private func changeTheme(isDarkMode: Bool) {
         if isDarkMode {
             let theme = ThemeManager.Theme.Dark
             ThemeManager.applyTheme(theme: theme)
