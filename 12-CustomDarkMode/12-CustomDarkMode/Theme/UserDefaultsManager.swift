@@ -12,16 +12,16 @@ let userDefaults = UserDefaultsManager()
 
 class UserDefaultsManager: NSObject {
 
-fileprivate let defaults = UserDefaults.standard
+    fileprivate let defaults = UserDefaults.standard
     let selectedTheme = "SelectedTheme"
     
     //updating
     func updateObject(for key: String, with data: Any?) {
-      defaults.set(data, forKey: key)
-      defaults.synchronize()
+        defaults.set(data, forKey: key)
+        defaults.synchronize()
     }
 
     func currentIntObjectState(for key: String) -> Int? {
-      return defaults.integer(forKey: key)
+        return defaults.integer(forKey: key)
     }
 }
