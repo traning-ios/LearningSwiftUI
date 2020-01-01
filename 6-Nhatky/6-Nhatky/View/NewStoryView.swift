@@ -30,7 +30,7 @@ struct NewStoryView: View {
     func addNewStory() {
         if !title.isEmpty && !content.isEmpty {
             //Create new story to Firebase
-            let story = Story(title: title, content: content)
+            let story = Story(title: title, content: content, isOwner: true)
             firebaseSession.createStory(story: story)
             dismiss()
         }
