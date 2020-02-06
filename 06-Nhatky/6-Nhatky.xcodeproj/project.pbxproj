@@ -28,7 +28,9 @@
 		C62FAAFE23AC64F800046021 /* NewStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62FAAFD23AC64F800046021 /* NewStoryView.swift */; };
 		C62FAB0023AC65D300046021 /* DetailStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62FAAFF23AC65D300046021 /* DetailStoryView.swift */; };
 		C62FAB0223AC662500046021 /* StoryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62FAB0123AC662500046021 /* StoryRowView.swift */; };
-		C62FAB4223AC70E200046021 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C62FAB4123AC70E100046021 /* GoogleService-Info.plist */; };
+		D72BB5DD23ADA28600A86E85 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D72BB5DC23ADA28600A86E85 /* GoogleService-Info.plist */; };
+		D72BB5DF23ADA8F800A86E85 /* UserCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BB5DE23ADA8F800A86E85 /* UserCode.swift */; };
+		D72BB5E223ADC7E200A86E85 /* Times.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72BB5E123ADC7E200A86E85 /* Times.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +80,9 @@
 		C62FAAFD23AC64F800046021 /* NewStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStoryView.swift; sourceTree = "<group>"; };
 		C62FAAFF23AC65D300046021 /* DetailStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStoryView.swift; sourceTree = "<group>"; };
 		C62FAB0123AC662500046021 /* StoryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryRowView.swift; sourceTree = "<group>"; };
-		C62FAB4123AC70E100046021 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D72BB5DC23ADA28600A86E85 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D72BB5DE23ADA8F800A86E85 /* UserCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCode.swift; sourceTree = "<group>"; };
+		D72BB5E123ADC7E200A86E85 /* Times.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Times.swift; sourceTree = "<group>"; };
 		DDA4D3CD583542F3EC071F59 /* Pods-6-Nhatky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6-Nhatky.release.xcconfig"; path = "Target Support Files/Pods-6-Nhatky/Pods-6-Nhatky.release.xcconfig"; sourceTree = "<group>"; };
 		F16794AF3FD375128D1A3301 /* Pods-6-Nhatky-6-NhatkyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6-Nhatky-6-NhatkyUITests.debug.xcconfig"; path = "Target Support Files/Pods-6-Nhatky-6-NhatkyUITests/Pods-6-Nhatky-6-NhatkyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F21B02739FA206C0157EF5F0 /* Pods-6-Nhatky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-6-Nhatky.debug.xcconfig"; path = "Target Support Files/Pods-6-Nhatky/Pods-6-Nhatky.debug.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +152,7 @@
 		C62FAAB423AC4C5000046021 /* 6-Nhatky */ = {
 			isa = PBXGroup;
 			children = (
+				D72BB5E023ADC7D300A86E85 /* Helps */,
 				C62FAAE823AC4CF100046021 /* Models */,
 				C62FAAE623AC4CE400046021 /* Session */,
 				C62FAAE523AC4CDB00046021 /* View */,
@@ -155,7 +160,7 @@
 				C62FAAB723AC4C5000046021 /* SceneDelegate.swift */,
 				C62FAABB23AC4C5100046021 /* Assets.xcassets */,
 				C62FAAC023AC4C5100046021 /* LaunchScreen.storyboard */,
-				C62FAB4123AC70E100046021 /* GoogleService-Info.plist */,
+				D72BB5DC23ADA28600A86E85 /* GoogleService-Info.plist */,
 				C62FAAC323AC4C5100046021 /* Info.plist */,
 				C62FAABD23AC4C5100046021 /* Preview Content */,
 			);
@@ -216,6 +221,7 @@
 			children = (
 				C62FAAE923AC4D0C00046021 /* User.swift */,
 				C62FAAEB23AC4D8E00046021 /* Story.swift */,
+				D72BB5DE23ADA8F800A86E85 /* UserCode.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,6 +237,14 @@
 				846DCF0B0EBBE305E7329FB0 /* Pods-6-NhatkyTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D72BB5E023ADC7D300A86E85 /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				D72BB5E123ADC7E200A86E85 /* Times.swift */,
+			);
+			path = Helps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,7 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C62FAAC223AC4C5100046021 /* LaunchScreen.storyboard in Resources */,
-				C62FAB4223AC70E200046021 /* GoogleService-Info.plist in Resources */,
+				D72BB5DD23ADA28600A86E85 /* GoogleService-Info.plist in Resources */,
 				C62FAABF23AC4C5100046021 /* Preview Assets.xcassets in Resources */,
 				C62FAABC23AC4C5100046021 /* Assets.xcassets in Resources */,
 			);
@@ -478,9 +492,11 @@
 				C62FAAEA23AC4D0C00046021 /* User.swift in Sources */,
 				C62FAAB623AC4C5000046021 /* AppDelegate.swift in Sources */,
 				C62FAAFC23AC639000046021 /* HomeView.swift in Sources */,
+				D72BB5DF23ADA8F800A86E85 /* UserCode.swift in Sources */,
 				C62FAAB823AC4C5000046021 /* SceneDelegate.swift in Sources */,
 				C62FAB0223AC662500046021 /* StoryRowView.swift in Sources */,
 				C62FAAF023AC52A500046021 /* FirebaseSession.swift in Sources */,
+				D72BB5E223ADC7E200A86E85 /* Times.swift in Sources */,
 				C62FAB0023AC65D300046021 /* DetailStoryView.swift in Sources */,
 				C62FAAF823AC5BDA00046021 /* Appview.swift in Sources */,
 				C62FAAFA23AC611600046021 /* SystemServices.swift in Sources */,

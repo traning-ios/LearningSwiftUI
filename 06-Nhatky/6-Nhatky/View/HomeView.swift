@@ -17,9 +17,14 @@ struct HomeView: View {
             NavigationLink(destination: NewStoryView()) {
                 Text("Add new story")
             }
-
+            Button(action: {
+                self.connectCrush(crushCode: "abc")
+            }) {
+                Text("Connect with crush")
+            }
+            
             List {
-                ForEach(self.firebaseSession.items) { story  in
+                ForEach(self.firebaseSession.storyList) { story  in
                     NavigationLink(destination: DetailStoryView(story: story)) {
                         StoryRowView(story: story)
                     }
@@ -29,12 +34,25 @@ struct HomeView: View {
             }, label: {
                 Text("Signout")
             }))
-        }.onAppear(perform: getStory)
+        }.onAppear(perform: getAll)
     }
 
     //MARK: Functions
+    
+    func getAll() {
+        getStory()
+        createUserCode()
+    }
     func getStory() {
         firebaseSession.listen()
+    }
+    
+    private func createUserCode() {
+        firebaseSession.createUserCode()
+    }
+    
+    private func connectCrush(crushCode: String) {
+//        firebaseSession.connectCrushCode(crushCode: "J4MOiolgHacUUYK9zcHadLbpkP43")
     }
 }
 
