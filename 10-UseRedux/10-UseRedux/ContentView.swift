@@ -17,6 +17,12 @@ struct CounterActionIncrease: Action {}
 
 struct CounterActionDecrease: Action {}
 
+//enum CounterAction: Action {
+//    case increase
+//    case decrease
+//    case reset
+//}
+
 
 func counterReducer(action: Action, state: Appstate?) -> Appstate {
     var state = state ?? Appstate()
