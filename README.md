@@ -25,6 +25,7 @@ Clone hoặc nhấn nút tải File zip về.
 - [x] Sử dụng Redux trong SwiftUI
 - [x] Custom Dark mode trong SwiftUI
 - [x] Hiệu ứng effect trong SwiftUI và UIKit
+- [x] Thêm một mẫu Redux chuẩn để xây dựng các dự án lớn trong SwiftUI
 ## 🔷 Tác giả
 
 [@bk_gost](https://twitter.com/bk_gost)
