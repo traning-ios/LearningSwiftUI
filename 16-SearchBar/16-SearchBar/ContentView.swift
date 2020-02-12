@@ -25,7 +25,7 @@ final class SearchPageListener: SearchListener {
 
     override func loadPage() {
         if let text = text, !text.isEmpty {
-            print(text)
+            print("Searching action with \(text)")
         }
     }
 }
