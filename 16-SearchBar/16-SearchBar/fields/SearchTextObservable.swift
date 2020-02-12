@@ -24,7 +24,7 @@ class SearchTextObservable: ObservableObject {
     }
 
     let searchSubject = PassthroughSubject<String, Never>()
-
+    
     func onUpdateText(text: String) {
         /// Overwrite by your subclass to get instant text update.
 //        print("onUpdateText \(text)")
