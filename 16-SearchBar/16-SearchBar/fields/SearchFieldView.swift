@@ -64,40 +64,40 @@ struct SearchFieldView: View {
 struct SearchFieldView_Previews: PreviewProvider {
     static var previews: some View {
         let withText = SearchTextObservable()
-        withText.searchText = "Test"
+        withText.searchText = "loving"
 
         return VStack {
             SearchFieldView(searchTextWrapper: SearchTextObservable(),
-                        placeholder: "Search anything",
+                        placeholder: "Search anything 1",
                         isSearching: .constant(false))
             SearchFieldView(searchTextWrapper: withText,
-                        placeholder: "Search anything",
+                        placeholder: "Search anything 2",
                         isSearching: .constant(false))
 
             List {
                 SearchFieldView(searchTextWrapper: withText,
-                            placeholder: "Search anything",
+                            placeholder: "Search anything 3",
                             isSearching: .constant(false))
                 Section(header: SearchFieldView(searchTextWrapper: withText,
-                                            placeholder: "Search anything",
+                                            placeholder: "Search anything 4",
                                             isSearching: .constant(false)))
                 {
                     SearchFieldView(searchTextWrapper: withText,
-                                placeholder: "Search anything",
+                                placeholder: "Search anything 5",
                                 isSearching: .constant(false))
                 }
             }
 
             List {
                 SearchFieldView(searchTextWrapper: withText,
-                            placeholder: "Search anything",
+                            placeholder: "Search anything 6",
                             isSearching: .constant(false))
                 Section(header: SearchFieldView(searchTextWrapper: withText,
-                                            placeholder: "Search anything",
+                                            placeholder: "Search anything 7",
                                             isSearching: .constant(false)))
                 {
                     SearchFieldView(searchTextWrapper: withText,
-                                placeholder: "Search anything",
+                                placeholder: "Search anything 8",
                                 isSearching: .constant(false))
                 }
             }.listStyle(GroupedListStyle())

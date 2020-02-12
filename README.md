@@ -26,6 +26,7 @@ Clone hoặc nhấn nút tải File zip về.
 - [x] Custom Dark mode trong SwiftUI
 - [x] Hiệu ứng effect trong SwiftUI và UIKit
 - [x] Thêm một mẫu Redux chuẩn để xây dựng các dự án lớn trong SwiftUI
+- [x] Thêm mẫu SearchUI xử lý phần search hay dùng
 ## 🔷 Tác giả
 
 [@bk_gost](https://twitter.com/bk_gost)
