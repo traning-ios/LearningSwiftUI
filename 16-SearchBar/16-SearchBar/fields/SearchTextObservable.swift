@@ -10,7 +10,7 @@ import SwiftUI
 import Combine
 
 class SearchTextObservable: ObservableObject {
-    @Published public var searchText = "" {
+    @Published var searchText = "" {
         willSet {
             DispatchQueue.main.async {
                 self.searchSubject.send(newValue)

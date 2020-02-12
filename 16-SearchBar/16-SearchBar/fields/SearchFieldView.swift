@@ -18,7 +18,7 @@ struct SearchFieldView: View {
 
     private var searchCancellable: Cancellable? = nil
 
-    public init(searchTextWrapper: SearchTextObservable,
+    init(searchTextWrapper: SearchTextObservable,
          placeholder: String,
          isSearching: Binding<Bool>,
          dismissButtonTitle: String = "Cancel",
@@ -34,7 +34,7 @@ struct SearchFieldView: View {
         })
     }
 
-    public var body: some View {
+    var body: some View {
         GeometryReader { reader in
             HStack(alignment: .center, spacing: 0) {
                 Image(systemName: "magnifyingglass")
