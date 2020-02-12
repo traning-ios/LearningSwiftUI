@@ -18,6 +18,7 @@
 		C6032C0823F3F2F200019542 /* SearchTextObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6032C0723F3F2F200019542 /* SearchTextObservable.swift */; };
 		C6032C0A23F3F38200019542 /* SearchFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6032C0923F3F38200019542 /* SearchFieldView.swift */; };
 		C6032C0C23F3F45D00019542 /* OffsetTopPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6032C0B23F3F45D00019542 /* OffsetTopPreferenceKey.swift */; };
+		C6032C0E23F3F6E300019542 /* SearchListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6032C0D23F3F6E300019542 /* SearchListener.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C6032C0723F3F2F200019542 /* SearchTextObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextObservable.swift; sourceTree = "<group>"; };
 		C6032C0923F3F38200019542 /* SearchFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFieldView.swift; sourceTree = "<group>"; };
 		C6032C0B23F3F45D00019542 /* OffsetTopPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetTopPreferenceKey.swift; sourceTree = "<group>"; };
+		C6032C0D23F3F6E300019542 /* SearchListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchListener.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				C6032C0723F3F2F200019542 /* SearchTextObservable.swift */,
 				C6032C0923F3F38200019542 /* SearchFieldView.swift */,
 				C6032C0B23F3F45D00019542 /* OffsetTopPreferenceKey.swift */,
+				C6032C0D23F3F6E300019542 /* SearchListener.swift */,
 			);
 			path = fields;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				C6032C0823F3F2F200019542 /* SearchTextObservable.swift in Sources */,
 				C6032BD923F3F2AD00019542 /* SceneDelegate.swift in Sources */,
 				C6032BDB23F3F2AD00019542 /* ContentView.swift in Sources */,
+				C6032C0E23F3F6E300019542 /* SearchListener.swift in Sources */,
 				C6032C0A23F3F38200019542 /* SearchFieldView.swift in Sources */,
 				C6032C0C23F3F45D00019542 /* OffsetTopPreferenceKey.swift in Sources */,
 			);

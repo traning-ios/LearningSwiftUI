@@ -8,27 +8,7 @@
 
 import SwiftUI
 
-class SearchListener {
-    var currentPage: Int = 1 {
-        didSet {
-            loadPage()
-        }
-    }
 
-    func loadPage() {
-
-    }
-}
-
-final class SearchPageListener: SearchListener {
-    var text: String?
-
-    override func loadPage() {
-        if let text = text, !text.isEmpty {
-            print("Searching action with \(text)")
-        }
-    }
-}
 
 final class MoviesSearchTextWrapper: SearchTextObservable {
     var searchPageListener = SearchPageListener()
