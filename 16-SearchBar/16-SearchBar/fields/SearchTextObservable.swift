@@ -27,12 +27,14 @@ class SearchTextObservable: ObservableObject {
 
     func onUpdateText(text: String) {
         /// Overwrite by your subclass to get instant text update.
+//        print("onUpdateText \(text)")
     }
 
-    open func onUpdateTextDebounced(text: String) {
+    func onUpdateTextDebounced(text: String) {
         /// Overwrite by your subclass to get debounced text update.
+//        print("onUpdateTextDebounced \(text)")
     }
-    
+
     deinit {
         searchCancellable?.cancel()
     }
