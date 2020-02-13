@@ -10,7 +10,7 @@ import SwiftUI
 
 
 
-final class MoviesSearchTextWrapper: SearchTextObservable {
+final class OtherSearchTextWrapper: SearchTextObservable {
     var searchPageListener = SearchPageListener()
 
     override func onUpdateTextDebounced(text: String) {
@@ -20,7 +20,7 @@ final class MoviesSearchTextWrapper: SearchTextObservable {
 }
 
 struct ContentView: View {
-    @State private var searchTextWrapper = MoviesSearchTextWrapper()
+    @State private var searchTextWrapper = OtherSearchTextWrapper()
     @State private var isSearching = false
 
     private var searchField: some View {
