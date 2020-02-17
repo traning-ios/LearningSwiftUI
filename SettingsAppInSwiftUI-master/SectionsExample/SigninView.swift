@@ -4,7 +4,7 @@ import SwiftUI
 struct SignInView : View {
     var body: some View {
         HStack(alignment: .center) {
-            Image("default") //image already added in Assets.xcassets
+            Image(systemName: "person.crop.circle")
                 .resizable()
                 .cornerRadius(20)
                 .frame(width: 60, height: 60)
