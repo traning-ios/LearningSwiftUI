@@ -1,5 +1,5 @@
 # LearningSwiftUI
-swiftUI for beginning - Học SwiftUI cho người mới 
+swiftUI for beginning - Học SwiftUI.
 
 ## 🔷  Yêu cầu 
 
