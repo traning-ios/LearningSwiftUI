@@ -45,10 +45,10 @@ example(of: "Custom Subscriber") {
 */
 
 
-example(of: "Future") {
-  func futureIncrement(
-    integer: Int,
-    afterDelay delay: TimeInterval) -> Future<Int, Never> {
-
-  }
-}
+//example(of: "Future") {
+//  func futureIncrement(
+//    integer: Int,
+//    afterDelay delay: TimeInterval) -> Future<Int, Never> {
+//
+//  }
+//}
