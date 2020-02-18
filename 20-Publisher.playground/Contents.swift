@@ -9,6 +9,14 @@ public func example(of description: String, action: () -> Void) {
     action()
 }
 
+var arrray = [1, 2, 3]
+
+func showArray() {
+    arrray.shuffle()
+    print(arrray)
+}
+
+showArray()
 /*
 example(of: "Custom Subscriber") {
   // 1
