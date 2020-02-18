@@ -27,6 +27,8 @@ Clone hoặc nhấn nút tải File zip về.
 - [x] Hiệu ứng effect trong SwiftUI và UIKit
 - [x] Thêm một mẫu Redux chuẩn để xây dựng các dự án lớn trong SwiftUI
 - [x] Thêm mẫu SearchUI xử lý phần search hay dùng
+- [x] Rất nhiều source code có sẵn để tham khảo về cách thiết kế UI trong SwiftUI
+
 ## 🔷 Tác giả
 
 [@bk_gost](https://twitter.com/bk_gost)
