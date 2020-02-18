@@ -32,3 +32,5 @@ Clone hoặc nhấn nút tải File zip về.
 ## 🔷 Tác giả
 
 [@bk_gost](https://twitter.com/bk_gost)
+
+### ![Background](image.png)
