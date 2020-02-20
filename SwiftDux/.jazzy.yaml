@@ -1,0 +1,40 @@
+github_url: https://github.com/StevenLambion/SwiftDux
+documentation:
+  - Guides/*.md
+custom_categories:
+  - name: "Documentation"
+    children:
+      - "Installation"
+      - "Getting Started"
+      - "Composing Reducers"
+      - "SwiftUI List Support"
+      - "Persisting State"
+  - name: State
+    children:
+      - StateType
+      - IdentifiableState
+      - OrderedState
+  - name: Actions
+    children:
+      - Action
+      - ActionPlan
+      - ActionDispatcher
+      - SendAction
+      - EmptyAction
+      - ActionModifier
+  - name: Store
+    children:
+      - Store
+      - Reducer
+      - StoreProxy
+  - name: SwiftUI
+    children:
+      - View
+      - MappedState
+      - MappedDispatch
+      - Connectable
+      - ParameterizedConnectable
+  - name: Advanced
+    children:
+      - Middleware
+      - PrintActionMiddleware(printer:)
