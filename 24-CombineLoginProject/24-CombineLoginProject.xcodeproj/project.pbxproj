@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		C678055F2410BF45007B7DA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678055E2410BF45007B7DA2 /* AppDelegate.swift */; };
 		C67805612410BF45007B7DA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67805602410BF45007B7DA2 /* SceneDelegate.swift */; };
-		C67805632410BF45007B7DA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67805622410BF45007B7DA2 /* ContentView.swift */; };
 		C67805652410BF46007B7DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67805642410BF46007B7DA2 /* Assets.xcassets */; };
 		C67805682410BF46007B7DA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67805672410BF46007B7DA2 /* Preview Assets.xcassets */; };
 		C678056B2410BF46007B7DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C67805692410BF46007B7DA2 /* LaunchScreen.storyboard */; };
 		C67805762410BF46007B7DA2 /* _4_CombineLoginProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67805752410BF46007B7DA2 /* _4_CombineLoginProjectTests.swift */; };
 		C67805812410BF46007B7DA2 /* _4_CombineLoginProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67805802410BF46007B7DA2 /* _4_CombineLoginProjectUITests.swift */; };
+		C67805902410BFA4007B7DA2 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C678058F2410BFA4007B7DA2 /* UserViewModel.swift */; };
+		C67805922410C065007B7DA2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67805912410C065007B7DA2 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,6 @@
 		C678055B2410BF45007B7DA2 /* 24-CombineLoginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "24-CombineLoginProject.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C678055E2410BF45007B7DA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C67805602410BF45007B7DA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C67805622410BF45007B7DA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C67805642410BF46007B7DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C67805672410BF46007B7DA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C678056A2410BF46007B7DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		C678057C2410BF46007B7DA2 /* 24-CombineLoginProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "24-CombineLoginProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67805802410BF46007B7DA2 /* _4_CombineLoginProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _4_CombineLoginProjectUITests.swift; sourceTree = "<group>"; };
 		C67805822410BF46007B7DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C678058F2410BFA4007B7DA2 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		C67805912410C065007B7DA2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +101,9 @@
 		C678055D2410BF45007B7DA2 /* 24-CombineLoginProject */ = {
 			isa = PBXGroup;
 			children = (
+				C678058E2410BF93007B7DA2 /* Login */,
 				C678055E2410BF45007B7DA2 /* AppDelegate.swift */,
 				C67805602410BF45007B7DA2 /* SceneDelegate.swift */,
-				C67805622410BF45007B7DA2 /* ContentView.swift */,
 				C67805642410BF46007B7DA2 /* Assets.xcassets */,
 				C67805692410BF46007B7DA2 /* LaunchScreen.storyboard */,
 				C678056C2410BF46007B7DA2 /* Info.plist */,
@@ -134,6 +136,15 @@
 				C67805822410BF46007B7DA2 /* Info.plist */,
 			);
 			path = "24-CombineLoginProjectUITests";
+			sourceTree = "<group>";
+		};
+		C678058E2410BF93007B7DA2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				C678058F2410BFA4007B7DA2 /* UserViewModel.swift */,
+				C67805912410C065007B7DA2 /* LoginView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,8 +279,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C678055F2410BF45007B7DA2 /* AppDelegate.swift in Sources */,
+				C67805902410BFA4007B7DA2 /* UserViewModel.swift in Sources */,
 				C67805612410BF45007B7DA2 /* SceneDelegate.swift in Sources */,
-				C67805632410BF45007B7DA2 /* ContentView.swift in Sources */,
+				C67805922410C065007B7DA2 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
