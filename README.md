@@ -34,12 +34,12 @@ Clone hoặc nhấn nút tải File zip về - Clone or download this repo.
 [@thecodebugs](https://twitter.com/thecodebugs)
 
 
-## group: https://www.facebook.com/groups/learningcplusplus
+#### group: https://www.facebook.com/groups/learningcplusplus
 
-## Twitter: https://twitter.com/thecodebugs
+#### Twitter: https://twitter.com/thecodebugs
 
-## Youtube: https://www.youtube.com/channel/UCvBq4KkFJntBMa2BnURPjHQ
+#### Youtube: https://www.youtube.com/channel/UCvBq4KkFJntBMa2BnURPjHQ
 
-## Website: http://codetoanbug.com
+#### Website: https://codetoanbug.com
 
 ### ![Background](image.png)
