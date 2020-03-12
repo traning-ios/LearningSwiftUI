@@ -29,8 +29,17 @@ Clone hoặc nhấn nút tải File zip về - Clone or download this repo.
 - [x] Thêm mẫu SearchUI xử lý phần search hay dùng - search template component for swiftUI
 - [x] Rất nhiều source code có sẵn để tham khảo về cách thiết kế UI trong SwiftUI - and more sources for researching
 
-## 🔷 Tác giả
+## 🔷 Tác giả / Author
 
 [@thecodebugs](https://twitter.com/thecodebugs)
+
+
+## group: https://www.facebook.com/groups/learningcplusplus
+
+## Twitter: https://twitter.com/thecodebugs
+
+## Youtube: https://www.youtube.com/channel/UCvBq4KkFJntBMa2BnURPjHQ
+
+## Website: http://codetoanbug.com
 
 ### ![Background](image.png)
