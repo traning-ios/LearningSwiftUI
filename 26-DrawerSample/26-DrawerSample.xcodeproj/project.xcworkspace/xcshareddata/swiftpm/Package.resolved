@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SideMenu",
+        "repositoryURL": "https://github.com/Vidhyadharan-Mohanram/SideMenu",
+        "state": {
+          "branch": "master",
+          "revision": "ed389405fb32fa2e4884ac9e92593f39282e82a9",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
